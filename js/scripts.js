@@ -5,7 +5,6 @@
       alert(numberArray);
     }//for loop end
     return numberArray.toString();
-    $(".result").text(result);
   }//beepMachine end
 
 
@@ -21,7 +20,7 @@ $(document).ready(function(){
     var number = parseInt($("#inputNumber").val());
     var numberStr = $("#inputNumber").val();
     var result = beepMachine(number);
-
+    $(".result").text(result);
 
 
 
