@@ -39,7 +39,7 @@ $(document).ready(function(){
     var number = parseInt($("#inputNumber").val());
     // var numberStr = $("#inputNumber").val();
     var result = beepMachine(number);
-    $(".result").text(result);
+    $(".result").append("<p>" + result + "</p>");
 
 
 
