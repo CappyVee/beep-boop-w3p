@@ -1,3 +1,7 @@
 .jumbotron {
   width: 65%;
 }
+p {
+  max-width: 55%;
+  word-wrap: break-word;
+}
