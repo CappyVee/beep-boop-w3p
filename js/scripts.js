@@ -8,10 +8,13 @@
       // alert(numberArray);
     }//for loop1 end
       for (a = 0; a < numberArray.length; a++)
-        if (numberArray[a] ==0 0){
+        if (numberArray[a] == 0){
           var numberArray = numberArray.toString();
-          var numberArray = numberArray.split("0").join("Boop!");
-        // } else if (numberArray[a] ==)
+          var numberArray = numberArray.split("0").join("Boop");
+        } else if (numberArray[a] == 1){
+          var numberArray = numberArray.toString();
+          var numberArray = numberArray.split("1").join("Beep")
+        }
 
         return numberArray;
     // for (b = 0; b < numberArray.length; b++){
