@@ -1,8 +1,15 @@
 .jumbotron {
   width: 65%;
   text-align: center;
+  background-color: lightblue;
+
 }
 p {
   max-width: 55%;
   word-wrap: break-word;
+}
+
+button {
+  margin: 1%;
+  background-color: lightblue;
 }

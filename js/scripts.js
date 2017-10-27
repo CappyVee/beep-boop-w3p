@@ -1,6 +1,6 @@
   var beepMachine = function(number) {
-    var noises = ["Boop!","Beep!","I'm sorry, Dave. I can't do that."];
-    var numMatch = ["0","1","x"];
+    // var noises = ["Boop!","Beep!","I'm sorry, Dave. I can't do that."];
+    // var numMatch = ["0","1","x"];
     var numberArray = [];
     if (number%3 === 0){
       return "I'm sorry, Dave. I can't do that";
@@ -37,7 +37,7 @@ $(document).ready(function(){
   $("#inputForm").submit(function(event){
     event.preventDefault();
     var number = parseInt($("#inputNumber").val());
-    var numberStr = $("#inputNumber").val();
+    // var numberStr = $("#inputNumber").val();
     var result = beepMachine(number);
     $(".result").text(result);
 
