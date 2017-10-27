@@ -3,7 +3,7 @@
     var numMatch = ["0","1","x"];
     var numberArray = [];
     if (number%3 === 0){
-      return "I'm sorry Dave";
+      return "I'm sorry, Dave. I can't do that";
     }
     for (i = 0; i < number; i++) {
       numberArray.push(i);

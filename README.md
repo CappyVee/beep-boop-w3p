@@ -8,6 +8,29 @@
 
 _End of Week Three project. The point is to use looping and branching in javascript to display all numbers leading up to an input. If the number is divisible by three, the input should return "I'm sorry Dave.". On the way up to the input number, numbers containing 0 or 1 should display Boop or Beep respectively. Output should be stored on page, instead of written over on resubmit.
 
+## Specifications
+-The steps I attempted to follow are as follows:
+
+register a number, and display it in console
+
+register a number, display it on page
+
+register a number, display it on the page
+
+display all numbers leading up to input number
+
+if number is divisible by three with no remainder, display "I'm sorry Dave"
+
+if number 0 appears, replace it with Boop
+
+if number 1 appears, replace it with Beep
+
+if number contains 0, replace with Boop
+
+if number contains 1, replace with Beep
+
+Prevent display from resetting upon clicking submit
+
 ## Setup/Installation Requirements
 
 * _clone repository_
