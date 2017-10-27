@@ -36,6 +36,7 @@ Prevent display from resetting upon clicking submit
 * _clone repository_
 * _extract zip file_
 * _open index.html in a web browser compatible with jQuery 3.2.1_
+* _alternatively, follow the GH-Pages link:https://cappyvee.github.io/beep-boop-w3p/
 
 
 ## Known Bugs
