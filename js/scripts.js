@@ -1,9 +1,12 @@
   var beepMachine = function(number) {
     var numberArray = [];
-    for (i = 0; i < number.length; i++) {
-      numberArray.push(number-1);
-      return result
-    }
+    for (i = 0; i < number; i++) {
+      numberArray.push(i);
+      // alert(numberArray);
+    }//for loop end
+    return numberArray.join("");
+    numberArray.toString;
+    $(".result").text(numberArray);
   }//beepMachine end
 
 
@@ -20,7 +23,7 @@ $(document).ready(function(){
     var numberStr = $("#inputNumber").val();
     var result = beepMachine(number);
 
-    $(".result").text(numberArray);
+
 
 
 
