@@ -1,7 +1,10 @@
-var beepMachine = function(numberStr) {
-  var numberArray = []
-  return numberStr + numberStr;
-}//beepMachine end
+  var beepMachine = function(number) {
+    var numberArray = [];
+    for (i = 0; i < number.length; i++) {
+      numberArray.push(number-1);
+      return result
+    }
+  }//beepMachine end
 
 
 
@@ -15,9 +18,9 @@ $(document).ready(function(){
     event.preventDefault();
     var number = parseInt($("#inputNumber").val());
     var numberStr = $("#inputNumber").val();
-    var result = beepMachine(numberStr);
+    var result = beepMachine(number);
 
-    $(".result").text(result);
+    $(".result").text(numberArray);
 
 
 
