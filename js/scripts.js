@@ -14,8 +14,9 @@
         if (numberArray[a] === 0){
           var numberArray = numberArray.toString();
           var numberArray = numberArray.split("0").join("Boop!");
+          // var numberArray = parseInt(numberArray);
         } else if (numberArray[a] === "1"){
-          // var numberArray = numberArray.toString();
+          var numberArray = numberArray.toString();
           var numberArray = numberArray.split("1").join("Beep!")
         }
 
