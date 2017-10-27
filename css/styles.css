@@ -1,5 +1,6 @@
 .jumbotron {
   width: 65%;
+  text-align: center;
 }
 p {
   max-width: 55%;
