@@ -13,11 +13,11 @@
       for (a = 0; a < numberArray.length; a++)
         if (numberArray[a] === 0){
           var numberArray = numberArray.toString();
-          var numberArray = numberArray.split("0").join("Boop!");
+          var numberArray = numberArray.split("0").join("Boop! ");
           // var numberArray = parseInt(numberArray);
         } else if (numberArray[a] === "1"){
           var numberArray = numberArray.toString();
-          var numberArray = numberArray.split("1").join("Beep!")
+          var numberArray = numberArray.split("1").join("Beep! ")
         }
 
         return numberArray;
@@ -39,7 +39,7 @@ $(document).ready(function(){
     var number = parseInt($("#inputNumber").val());
     // var numberStr = $("#inputNumber").val();
     var result = beepMachine(number);
-    $(".result").append("<p>" + result + "</p>");
+    $(".result").append("<p>" + "I SAY: " + result + "</p>");
 
 
 
