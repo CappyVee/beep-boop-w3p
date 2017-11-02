@@ -19,11 +19,15 @@
   //
   //       return numberArray;
   // }//beepMachine end
+var numberArray = [];
 var beepMachine = function(number) {
-  if (number === 0) {
+  var numberStr = number.toString();
+  if (numberStr.includes("0")===true) {
     return ["Boop!"];
   } else if (number === 1) {
     return ["Boop!","Beep!"];
+  } else if (number % 3 === 0) {
+    return ["I'm sorry, Dave. I can't do that."];
   }
 }//end beepmachine fxn
 
