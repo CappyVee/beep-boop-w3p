@@ -26,9 +26,10 @@ var beepMachine = function(number) {
     numberArray.push("Boop!")
   } else if (numberStr.includes("1")===true) {
     numberArray.push("Boop!","Beep!");
-  } else if (number % 3 === 0) {
-    return ["I'm sorry, Dave. I can't do that."];
+  } else if (number % 3 === 0 && number !==0) {
+    numberArray.push("I'm sorry, Dave. I can't do that.");
   }
+  return numberArray;
 }//end beepmachine fxn
 
 
