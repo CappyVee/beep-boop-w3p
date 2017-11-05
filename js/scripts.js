@@ -19,14 +19,19 @@
   //
   //       return numberArray;
   // }//beepMachine end
-var numberArray = [];
+
 var beepMachine = function(number) {
-  var numberStr = number.toString();
-  if (numberStr.includes("0")===true) {
-    numberArray.push("Boop!")
-  } else if (numberStr.includes("1")===true) {
-    numberArray.push("Boop!","Beep!");
-  } else if (number % 3 === 0 && number !==0) {
+var numberArray = [];
+  var numberStr = numberArray.toString();
+  for (i = 0; i < number; i++) {
+    numberArray.push(i);
+  }
+  for (b = 0; b < numberArray.length; b++) {
+  } if (numberArray[b].includes(0)) {
+    numberArray.push("Boop!");
+  } else if (numberArray[b].includes(1)) {
+    numberArray.push("Beep!");
+  } else if (numberArray[b] % 3 === 0 && numberArray[b] !==0) {
     numberArray.push("I'm sorry, Dave. I can't do that.");
   }
   return numberArray;
