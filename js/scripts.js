@@ -21,25 +21,21 @@
   // }//beepMachine end
 
 var beepMachine = function(number) {
-  var numberArray = [];
-  var numberArrayOutput = [];
-
+  var outputArray = []
   for (i = 0; i <= number; i++) {
-    numberArray.push(i);
-  }//for loop end
-    for (b = 0; b <= numberArray.length; b++) {
-      if (numberArray.includes(/0/g,b)) {
-      numberArrayOutput.push("Boop!");
-    } else if (numberArray.includes(/1/g,b)) {
-      numberArrayOutput.push("Beep!");
-    } else if (numberArray[b] % 3 === 0) {
-      numberArrayOutput.push("I'm sorry, Dave. I can't do that.");
+    var aye = String(i);
+    if (aye.includes("0")) {
+      outputArray.push("Boop!")
+    } else if (aye.includes("1")) {
+      outputArray.push("Beep!")
+    } else if (i % 3 === 0) {
+      outputArray.push("I'm sorry, Dave.")
     } else {
-      numberArrayOutput.push(numberArray[b]);
+      outputArray.push(i);
     }
-  }
-    return numberArrayOutput;
-}//end beepmachine fxn
+  }//for loop end
+  return outputArray;
+}//end beepmachine function
 
 
 

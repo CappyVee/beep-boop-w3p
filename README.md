@@ -26,7 +26,7 @@ _End of Week Three project. The point is to use looping and branching in javascr
 
 ## Known Bugs
 
-_Doesn't replace any numbers great than 0 or 1 with Boop or Beep_
+__
 
 ## Support and contact details
 
