@@ -22,19 +22,25 @@
 
 var beepMachine = function(number) {
 var numberArray = [];
-  var numberStr = numberArray.toString();
-  for (i = 0; i < number; i++) {
+var numberArrayOutput = [];
+
+  for (i = 0; i <= number; i++) {
     numberArray.push(i);
-  }
-  for (b = 0; b < numberArray.length; b++) {
-  } if (numberArray[b].includes(0)) {
-    numberArray.push("Boop!");
-  } else if (numberArray[b].includes(1)) {
-    numberArray.push("Beep!");
-  } else if (numberArray[b] % 3 === 0 && numberArray[b] !==0) {
-    numberArray.push("I'm sorry, Dave. I can't do that.");
-  }
-  return numberArray;
+    console.log(numberArray + "num array");
+  }//for loop end
+    for (b = 0; b <= numberArray.length; b++) {
+    } if (numberArray.includes(0,b)) {
+      debugger
+      numberArrayOutput.push("Boop!");
+      console.log(numberArrayOutput + "num array output")
+    } else if (numberArray.includes(1,b)) {
+      numberArrayOutput.push("Beep!");
+    } else if (numberArray[b] % 3 === 0 && numberArray[b] !==0) {
+      numberArrayOutput.push("I'm sorry, Dave. I can't do that.");
+    } else {
+      numberArrayOutput.push(numberArray[b]);
+    }
+    return numberArrayOutput;
 }//end beepmachine fxn
 
 
