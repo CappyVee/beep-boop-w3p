@@ -28,11 +28,11 @@ var beepMachine = function(number) {
     numberArray.push(i);
   }//for loop end
     for (b = 0; b <= numberArray.length; b++) {
-      if (numberArray.includes(0,b)) {
+      if (numberArray.includes(/0/g,b)) {
       numberArrayOutput.push("Boop!");
-    } else if (numberArray.includes(1,b)) {
+    } else if (numberArray.includes(/1/g,b)) {
       numberArrayOutput.push("Beep!");
-    } else if (numberArray[b] % 3 === 0 && numberArray[b] !==0) {
+    } else if (numberArray[b] % 3 === 0) {
       numberArrayOutput.push("I'm sorry, Dave. I can't do that.");
     } else {
       numberArrayOutput.push(numberArray[b]);

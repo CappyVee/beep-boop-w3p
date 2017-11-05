@@ -26,7 +26,7 @@ _End of Week Three project. The point is to use looping and branching in javascr
 
 ## Known Bugs
 
-_Currently just replaces the digit 0 or 1 with beep or boop, not the whole number. Example: 12 return BEEP2, not BEEP. Also, the Beep comparison must be compared against a string._
+_Doesn't replace any numbers great than 0 or 1 with Boop or Beep_
 
 ## Support and contact details
 
