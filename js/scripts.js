@@ -21,18 +21,15 @@
   // }//beepMachine end
 
 var beepMachine = function(number) {
-var numberArray = [];
-var numberArrayOutput = [];
+  var numberArray = [];
+  var numberArrayOutput = [];
 
   for (i = 0; i <= number; i++) {
     numberArray.push(i);
-    console.log(numberArray + "num array");
   }//for loop end
     for (b = 0; b <= numberArray.length; b++) {
-    } if (numberArray.includes(0,b)) {
-      debugger
+      if (numberArray.includes(0,b)) {
       numberArrayOutput.push("Boop!");
-      console.log(numberArrayOutput + "num array output")
     } else if (numberArray.includes(1,b)) {
       numberArrayOutput.push("Beep!");
     } else if (numberArray[b] % 3 === 0 && numberArray[b] !==0) {
@@ -40,6 +37,7 @@ var numberArrayOutput = [];
     } else {
       numberArrayOutput.push(numberArray[b]);
     }
+  }
     return numberArrayOutput;
 }//end beepmachine fxn
 
